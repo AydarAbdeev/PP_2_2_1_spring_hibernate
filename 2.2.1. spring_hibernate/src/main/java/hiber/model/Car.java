@@ -18,13 +18,6 @@ public class Car {
     public Car() {
     }
 
-    @Override
-    public String toString() {
-        return "Car{" +
-                "model=' " + model + '\'' +
-                ", series= " + series +
-                ", user= " + '}';
-    }
 
     public Car(String model, int series) {
         this.model = model;
